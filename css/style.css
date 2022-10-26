@@ -1,0 +1,573 @@
+body {
+    background-image: url(/img/tactile_noise.png);
+}
+
+/* NAVEGADOR */
+
+nav div.navegador {
+    display: flex; 
+    position: fixed;
+    top: 0%;
+    opacity: 0.95;
+    background: linear-gradient(to right, #939393, #191919);
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+
+
+div.palabrasNavegador a {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    display: inline-block;
+} 
+
+nav .palabrasNavegador a:hover {
+    background: #00ADB5;
+    border-radius: 5px;
+}
+
+div .palabrasNavegador ul li {
+    display: inline-block;
+    padding-left: 25px ;
+    font-size: large;
+    
+}
+
+
+
+div .logo a img {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+    
+}
+
+div.palabrasNavegador {
+    margin: auto;
+    margin-left: 50px;
+}
+
+div.palabrasNavegador li.contacto {
+    transform: translate(0px,5px);
+}
+
+div.palabrasNavegador li.contacto img {
+    height: 25px;
+    width: 40px;
+    
+
+}
+
+header div.imagenHeader{
+    justify-content: center;
+    margin-top: 8px;
+    height: auto;
+    width: auto;
+}
+
+header div.imagenHeader img {
+    height: 45vh;
+    width: 100%;
+    
+}
+
+
+/* MAIN INDEX */
+
+
+
+.bordesRedondeados {
+    border-radius: 10px;
+}
+
+
+
+
+main section.index2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40vh;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+   
+}
+
+
+
+main section.index2 div {
+    overflow: hidden;
+    height: 40vh;
+    width: 40%;
+    filter: grayscale(30%);
+    margin: 5px;
+}
+
+
+
+ main section.index2 h2 {
+    position: absolute ;
+    top:30%;
+    right: 0%;
+    bottom: 60%;
+    left: 0%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+    opacity: 70%;
+}
+
+
+main section.index2 div img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+
+
+main section.index2 div.botellas:hover {
+filter: grayscale(0%);
+
+}
+
+
+main section.index2 div.locales:hover{
+    filter: grayscale(0%);
+}
+
+main section.index2 div.nosotros:hover{
+    filter: grayscale(0%);
+}
+
+
+
+main section.parrafoIndex p {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    max-width: 1360px;
+}
+
+main { 
+    margin-bottom: 100px;
+}
+
+.bordesFooter {
+    border-top: 3px white double;
+    padding: 10px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;  
+}
+
+/* FOOTER */
+
+footer div.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer div.redes div.wp {
+    width: 60px;
+    margin: 0px 5px 0px 5px;
+}
+
+footer div.redes div.fb {
+    width: 65px;
+    margin: 0px 5px 0px 5px;
+}
+
+footer div.redes div.ig {
+    width: 65px;
+    margin: 0px 5px 0px 5px;
+}
+
+/* MAIN LOCAL */
+
+main div.videoLocal {
+     display: flex;
+     justify-content: center;
+     margin: 95px 20px 20px 20px;
+
+}
+
+main div.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.zoom {
+    transition:.5s;
+}
+ 
+.zoom:hover {
+    transform: scale(1.15); 
+    
+    
+}
+  
+
+/* MAIN CERVEZAS */
+
+main div.tiposDeCerveza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+main div.tiposDeCerveza img {
+    width: 300px;
+}
+
+/* FORMULARIO */
+
+main div.formulario fieldset{
+    background: radial-gradient(rgb(77, 77, 77), black)
+}
+
+main div.formulario fieldset legend {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+main div.formulario {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+main div.formulario form ul{
+    text-align: end;
+    list-style: none;
+    padding: 20px;
+    
+}
+
+
+main div.formulario form li {
+    margin: 10px;
+}
+
+
+
+main div.formulario .msjForm {
+    display: flex;
+    align-items: center;
+}
+
+main div.formulario .msjForm  label{
+    margin: 5px;
+  
+}
+
+main div.formulario button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+   background: white;
+   margin: 10px;
+}
+
+/* MAIN NOSOTROS */
+
+
+
+main.nosotrosPadre div {
+    height: 35vh;
+    width: 35vh;
+    margin: 10px 0px 10px 0px;
+}
+
+main.nosotrosPadre div img{
+    height: 100%;
+    width: fit-content;
+}
+
+
+
+main.nosotrosPadre section {
+    height: 35vh;
+    width: auto;
+    font-family:'Kanit', sans-serif ;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    font-size: large;
+}
+
+main.nosotrosPadre div.imgNosotros1 {
+    margin-top: 15px;
+}
+
+main.nosotrosPadre section h2 {
+    font-weight: bolder;
+    padding: 10px;
+}
+
+main.nosotrosPadre section.seccionNosotros1 {
+    text-align: right;
+}
+
+
+main.nosotrosPadre section.seccionNosotros2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+
+main.nosotrosPadre section.seccionNosotros3 {
+    text-align: right;
+}
+
+/* grid nosotros*/
+
+main.nosotrosPadre {
+    display: grid;
+    grid-template-areas: 
+    "imgNosotros1 seccionNosotros1 seccionNosotros1"
+    "seccionNosotros2 seccionNosotros2 imgNosotros2"
+    "imgNosotros3 seccionNosotros3 seccionNosotros3";
+    
+}
+
+.imgNosotros1 {
+    grid-area: imgNosotros1;
+}
+
+.imgNosotros2 {
+    grid-area: imgNosotros2;
+}
+
+.imgNosotros3 {
+    grid-area: imgNosotros3;
+}
+
+.seccionNosotros1 {
+    grid-area: seccionNosotros1;
+}
+
+.seccionNosotros2 {
+    grid-area: seccionNosotros2;
+}
+
+.seccionNosotros3 {
+    grid-area: seccionNosotros3;
+}
+
+
+/* ANIMACIONES */
+
+@keyframes animacion1{
+    0% {
+        transform: translate(0px, 0px);
+         }
+    3% {
+       transform: translate(0px, -2px);
+    }
+    12% {
+        transform: translate(0px, 0px);
+         }
+    15% {
+       transform: translate(0px, -2px);
+    }
+    18% {
+        transform: translate(0px, 0px);
+     }
+     30% {
+        transform: translate(0px, -2px);
+     }
+     32% {
+         transform: translate(0px, 0px);
+          }
+     35% {
+        transform: translate(0px, -2px);
+     }
+     37% {
+         transform: translate(0px, 0px);
+      }
+}
+
+div.palabrasNavegador li.contacto img.animacion1 {
+    animation-name: animacion1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+}
+
+
+@keyframes animacion2{
+    0% {
+        margin-right: 300%;
+        visibility: hidden;
+    }
+    40%{
+        visibility: hidden;
+
+     }
+}
+
+div.animacion2 { 
+    animation-name: animacion2;
+
+    animation-iteration-count: 1;
+
+    animation-duration: 1s;
+   
+}
+
+/* MEDIA */
+
+/* Tablet */
+@media (min-width: 700px) and (max-width: 1100px) 
+{ 
+
+    /* Main */
+
+    main section.index1 {
+        width: auto;
+    }
+
+    main section.index2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+
+    main section.index2 div {
+        width: 45%;
+    }
+
+    main section.index2 img {
+        border-radius: 4px;
+    }
+
+    main section.parrafoIndex p {
+        display: none;
+    }
+
+    /* Nosotros */
+    
+    main.nosotrosPadre section { 
+        height: auto;
+        font-size: medium;
+    }
+
+}
+
+
+/* TELEFONO */
+
+@media  (max-width: 699px) {
+
+
+    /* Main */
+
+    main section.index1 {
+        width: auto;
+    }
+
+    main section.index2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    main section.index2 div {
+        width: 100%;
+        height: auto;
+    }
+
+    main section.parrafoIndex p {
+        display: none;
+    }
+
+    nav div.navegador{
+        position: static;
+      
+    }
+
+    div .palabrasNavegador ul li {
+        display: inline-block;
+        padding-left: 25px ;
+        font-size: small;
+        
+    }
+
+    /* Nosotros */
+
+    main.nosotrosPadre {
+        grid-template-areas: 
+        "seccionNosotros1"
+        "imgNosotros1"
+        "seccionNosotros2"
+        "imgNosotros2"
+        "seccionNosotros3"
+        "imgNosotros3";
+        
+    }
+
+    main.nosotrosPadre section { 
+        height: auto;
+        font-size: medium;
+    }
+
+    main.nosotrosPadre section.seccionNosotros1 {
+        text-align: justify;
+    }
+
+    main.nosotrosPadre section.seccionNosotros2 {
+        text-align: justify;
+        margin-bottom: 0px;
+    }
+
+    main.nosotrosPadre section.seccionNosotros2 h2 {
+        text-align: right;
+        margin-bottom: 0px;
+    }
+
+    main.nosotrosPadre section.seccionNosotros3 {
+        text-align: justify;
+    }
+
+    main.nosotrosPadre div{
+        width: auto;
+        text-align: center;
+        margin: 0px;
+    }
+
+    main.nosotrosPadre div.imgNosotros2 {
+        background-color: white;
+    }
+
+}
