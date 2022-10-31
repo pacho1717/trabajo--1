@@ -129,13 +129,16 @@ main section.index2 div {
     font-weight: bolder;
     font-family: 'Kanit', sans-serif;
     opacity: 70%;
+    overflow: visible;
 }
+
 
 
 main section.index2 div img {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    position: relative;
     
 }
 
@@ -451,6 +454,8 @@ div.animacion2 {
 
     /* Main */
 
+  
+
     main section.index1 {
         width: auto;
     }
@@ -492,6 +497,8 @@ div.animacion2 {
 
     /* Main */
 
+   
+
     main section.index1 {
         width: auto;
     }
@@ -523,6 +530,7 @@ div.animacion2 {
         font-size: small;
         
     }
+
 
     /* Nosotros */
 
