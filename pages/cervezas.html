@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -36,22 +37,22 @@
 
     <main>
         <div class="tiposDeCerveza">
-            <div class="paleAle zoom">
+            <div class="paleAle zoom" data-aos="fade-right">
                 <img src="../img/pale ale.png" alt="pale ale">
             </div>
-            <div class="pacificAle zoom">
+            <div class="pacificAle zoom" data-aos="fade-right">
                 <img src="../img/pacific ale.png" alt="pacific ale">
             </div>
-            <div class="amberAle zoom">
+            <div class="amberAle zoom" data-aos="fade-right">
                 <img src="../img/amber ale.png" alt="amber ale">
             </div>
-            <div class="indianSummer zoom">
+            <div class="indianSummer zoom" data-aos="fade-left">
                 <img src="../img/indian summer.png" alt="indian summer">
             </div>
-            <div class="nitroStout zoom">
+            <div class="nitroStout zoom" data-aos="fade-left">
                 <img src="../img/nitro stout.png" alt="nitro stout">
             </div>
-            <div class="haztPaleAle zoom">
+            <div class="haztPaleAle zoom" data-aos="fade-left">
                 <img src="../img/hazy paleale.png" alt="">
             </div>
         </div>
@@ -79,5 +80,11 @@
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

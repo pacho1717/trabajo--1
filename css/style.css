@@ -56,7 +56,7 @@ main section.parrafoIndex{
 main section.parrafoIndex p {
     color: white;
     font-family: 'Kanit', sans-serif;
-    font-size: 15px;
+    font-size: larger;
     margin: auto;
     padding: 20px 20px 20px 20px;
     text-align: center;
@@ -345,6 +345,9 @@ div.animacion2 {
         font-size: medium;
     }
 
+    main section.parrafoIndex p {
+        font-size: medium;
+    }
 }
 
 
@@ -413,4 +416,12 @@ div.animacion2 {
         background-color: white;
     }
 
+    main.nosotrosPadre div{
+        display: none;
+    }
+
+    main section.parrafoIndex p {
+        font-size: medium;
+    }
 }
+
