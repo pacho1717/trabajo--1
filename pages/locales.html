@@ -11,51 +11,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
 </head>
 <body>
     <header>
-        <nav>
-            <div class="navegador">
-                <div class="logo zoom">
-                    <a href="../index.html"><img src="../img/4_Pines_Brewing_Company_logo.png" alt="logo" ></a>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../img/4_Pines_Brewing_Company_logo.png" alt="logo" width="60" height="auto" class="zoom"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  <a class="nav-link" href="locales.html">Locales</a>
+                  <a class="nav-link" href="cervezas.html">Cervezas</a>
+                  <a class="nav-link" href="contacto.html"><img src="../img/icono_correo_blanco-removebg-preview.png" alt="correo" class="correo zoom animacion1" width="35"></a>
                 </div>
-                <div class="palabrasNavegador">
-                    <ul>
-                        <li class="zoom"><a href="cervezas.html">Cervezas</a></li>
-                        <li class="zoom"><a href="locales.html">Locales</a></li>
-                        <li class="zoom"><a href="nosotros.html">Nosotros</a></li>
-                        <li class="contacto"><a href="../pages/contacto.html"><img src="../img/icono_correo_blanco-removebg-preview.png" alt="correo" class="zoom animacion1"></a></li>
-                     </ul>
-                </div>
-    
+              </div>
             </div>
-        </nav>
-        <div class="imagenHeader">
-            <img src="../img/locales-header.webp" alt="vasos" >
-        </div>  
-        </header>
+          </nav>
+       </header>
 
-    <main>
-        <div class="imagenHeader">
-            <img src="../img/locales-header.webp" alt="vasos" >
-        </div>  
-        <div class="imagenHeader">
-            <img src="../img/locales-header.webp" alt="vasos" >
-        </div>  
-        <div class="imagenHeader">
-            <img src="../img/locales-header.webp" alt="vasos" >
-        </div>  
-        <div class="videoLocal">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIBZmrzhpSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="bordesRedondeados videoTienda"></iframe>
-        </div>
-        <div class="videoLocal">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/VIBZmrzhpSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="bordesRedondeados videoTienda"></iframe>
-        </div>
+       <main>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/restaurant-beautiful-shot-outdoor-cafe-narrow-bystreet-paros-greece.jpg" class="d-block w-100" alt="local1">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/restaurant-interior.jpg" class="d-block w-100" alt="local2">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/restaurant-setting-with-wooden-chairs-tables-beautiful-view.jpg" class="d-block w-100" alt="local3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0339853137248!2d151.3163013143566!3d-33.6562812807155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d534ed71677e9%3A0xb8aa0a93e13a6a97!2s4%20Pines%20Public%20House%20Newport!5e0!3m2!1ses!2suy!4v1664461064391!5m2!1ses!2suy" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="bordesRedondeados mapa"></iframe>
+        <div class="mapa ">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0339853137248!2d151.3163013143566!3d-33.6562812807155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d534ed71677e9%3A0xb8aa0a93e13a6a97!2s4%20Pines%20Public%20House%20Newport!5e0!3m2!1ses!2suy!4v1664461064391!5m2!1ses!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="bordesRedondeados mapa"></iframe>
         </div>
 
     </main>
@@ -79,5 +89,9 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
