@@ -17,26 +17,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark" >
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top navegadorFull" >
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../img/4_Pines_Brewing_Company_logo.png" alt="logo" width="60" height="auto" class="zoom"></a>
+              <a class="navbar-brand" href="../index.html"><img src="../img/4_Pines_Brewing_Company_logo.png" alt="logo" width="56" height="auto" class="zoom mt-4 me-4"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  <a class="nav-link" href="locales.html">Locales</a>
-                  <a class="nav-link" href="cervezas.html">Cervezas</a>
-                  <a class="nav-link" href="contacto.html"><img src="../img/icono_correo_blanco-removebg-preview.png" alt="correo" class="correo zoom animacion1" width="35"></a>
+                  <a class="nav-link pe-4" href="nosotros.html">Nosotros</a>
+                  <a class="nav-link pe-4" href="locales.html">Locales</a>
+                  <a class="nav-link pe-4" href="cervezas.html">Cervezas</a>
+                  <a class="nav-link pe-4" href="contacto.html"><img src="../img/icono_correo_blanco-removebg-preview.png" alt="correo" class="correo zoom animacion1" width="28"></a>
                 </div>
               </div>
             </div>
           </nav>
         </header>
+    
     <main>
            
-     <div class="formulario animacion2">
+     <!-- <div class="formulario animacion2">
             <form>
                 <fieldset class="bordesRedondeados ">
                 <legend class="">Contacto</legend>
@@ -68,13 +69,46 @@
                 
                     </ul>
                 
-                
+            
                 
             
             </fieldset>
-            </form>
-        </div>
+            </form> -->
 
+            <!-- </div> -->
+
+            <form class="row formulario mx-auto">
+                <fieldset class="bordesRedondeados">
+                <legend class="contacto1">Contacto</legend>
+                <div class="col">
+                    <label for="inputName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                  </div>
+                <div class="col">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 calle">
+                </div>
+                <div class="col-12">
+                  <label for="Telefono" class="form-label">Telefono</label>
+                  <input type="number" class="form-control" id="inputAddress2" >
+                </div>
+                <div class="form-floating mt-4">
+                    <textarea class="form-control" placeholder="deje su comentario" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentarios</label>
+                  </div>
+                  <div class="row mt-4 ">
+                    <input class="btn btn-light btn-lg col m-3" type="submit" value="Submit">
+                    <input class="btn btn-light btn-lg col m-3" type="reset" value="Reset">
+
+                  </div>
+            </fieldset>
+            </form>
+     
         </main>
     </main>
    

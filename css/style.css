@@ -2,29 +2,44 @@ body {
     background-image: url(../img/tactile_noise.png);
 }
 
-.zoom {
-    transition:.5s;
+/* MAIN INDEX */
+
+html {
+    font-size: 62.5%;
 }
- 
-.zoom:hover {
-    transform: scale(1.15); 
+
+nav.navegadorFull {
+    font-size: 1.6rem;
+    opacity: 90%;
+ }
+
+
+header div.imagenHeader {
+    height: 35rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+header div.imagenHeader img {
+    width: 100%;
+    height: max-content;
+    position: absolute;
+    top: -30%;
     
 }
 
-/* MAIN INDEX */
-
-
-
-.bordesRedondeados {
-    border-radius: 10px;
-}
 
 
 main section.index2 div.imgIndex2 {
     overflow: hidden;
     filter: grayscale(30%);
-    padding: 0;
+    padding: 1;
+
 }
+
 
 
 
@@ -35,11 +50,12 @@ main section.index2 {
 
 
 section h5.textoImagen {
-    color: white;
+    color: rgb(225, 225, 225);
     text-transform: uppercase;
     font-family: 'Kanit', sans-serif;
     font-weight: bolder;
     overflow: hidden;
+    font-size: 2.5rem;
 }
 
 
@@ -51,72 +67,88 @@ filter: grayscale(0%);
 
 main section.parrafoIndex{
     height: fit-content;
+    background: radial-gradient(rgb(77, 77, 77), black)
 }
 
-main section.parrafoIndex p {
+
+main section.parrafoIndex  {
     color: white;
     font-family: 'Kanit', sans-serif;
-    font-size: larger;
-    margin: auto;
-    padding: 20px 20px 20px 20px;
+    font-size: 1.8rem;
+    margin: 2rem;
+    padding: 2rem;
     text-align: center;
-    border-top: white 1px solid;
-    border-bottom: white 1px solid;
-    max-width: 1360px;
+    
+    
+}
+
+main section.parrafoIndex h2 {
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 main { 
-    margin-bottom: 100px;
+    margin-bottom: 10rem;
 }
 
-.bordesFooter {
-    border-top: 3px white double;
-    padding: 10px;
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    text-align: center;  
-}
+
 
 
 
 /* FOOTER */
 
+.bordesFooter {
+    border-top: 3px white double;
+    padding: 0.8rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    text-align: center; 
+    font-size: 1.3rem; 
+}
+
 footer div.redes {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 footer div.redes div.wp {
-    width: 60px;
+    width:7rem;
     margin: 0px 5px 0px 5px;
 }
 
 footer div.redes div.fb {
-    width: 65px;
+    width: 7.5rem;
     margin: 0px 5px 0px 5px;
 }
 
 footer div.redes div.ig {
-    width: 65px;
+    width: 7.5rem;
     margin: 0px 5px 0px 5px;
 }
 
 /* MAIN LOCAL */
 
-main div.videoLocal {
-     display: flex;
-     justify-content: center;
-     margin: 95px 20px 20px 20px;
-}
 
-main div.mapa{
+main div.mapa {
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin-top: 5rem;
+}
+
+main div iframe.mapa{
+   width: 40rem;
+   height: 30rem;
 }
 
 
+
+main div.locales {
+    width: 70%;
+    margin-top: 4rem;
+    
+    
+}
   
 
 /* MAIN CERVEZAS */
@@ -125,74 +157,52 @@ main div.tiposDeCerveza {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 8rem;
 }
 
 
 main div.tiposDeCerveza img {
-    width: 300px;
+    width: 30rem;
 }
+
+
 
 /* FORMULARIO */
 
-main div.formulario fieldset{
-    background: radial-gradient(rgb(77, 77, 77), black)
-}
 
-main div.formulario fieldset legend {
-    font-size: x-large;
-    font-weight: bold;
+
+main form.formulario{
+    margin-top: 10rem;
+    width: 45rem;
+    border: 2px double white;
+    padding: 2rem;
+    border-radius: 4px;
+    background: radial-gradient(rgb(77, 77, 77), black);
+    font-family: 'Kanit', sans-serif ;
+    color: white;
     text-transform: uppercase;
 }
 
-main div.formulario {
-    display: flex;
-    justify-content: center;
-    margin: 100px;
+
+
+main form.formulario legend.contacto1 {
     color: white;
-    font-family: 'Kanit', sans-serif;
-}
-
-
-main div.formulario form ul{
-    text-align: end;
-    list-style: none;
-    padding: 20px;
-    
-}
-
-
-main div.formulario form li {
-    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem
 }
 
 
 
-main div.formulario .msjForm {
-    display: flex;
-    align-items: center;
-}
 
-main div.formulario .msjForm  label{
-    margin: 5px;
-  
-}
-
-main div.formulario button {
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-   background: white;
-   margin: 10px;
-}
 
 /* MAIN NOSOTROS */
 
 
 main.nosotrosPadre div {
-    height: 35vh;
-    width: 35vh;
-    margin: 10px 0px 10px 0px;
+    height: 30rem;
+    width: 30rem;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 main.nosotrosPadre div img{
@@ -207,21 +217,26 @@ main.nosotrosPadre section {
     width: auto;
     font-family:'Kanit', sans-serif ;
     color: white;
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
-    font-size: large;
+    margin: 1rem 0px 1rem 0px;
+    height: auto;
+    font-size: 1.5rem;
 
 }
 
 
 
 main.nosotrosPadre div.imgNosotros1 {
-    margin-top: 15px;
+    margin-top: 2rem;
+}
+
+main.nosotrosPadre div.imgNosotros2 {
+    background-color: white;
+    height: 30rem;
 }
 
 main.nosotrosPadre section h2 {
     font-weight: bolder;
-    padding: 10px;
+    padding: 1rem;
 }
 
 main.nosotrosPadre section.seccionNosotros1 {
@@ -274,6 +289,20 @@ main.nosotrosPadre {
     grid-area: seccionNosotros3;
 }
 
+
+/* DETALLES */
+
+.zoom {
+    transition: transform .5s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.2); 
+}
+
+.bordesRedondeados {
+    border-radius: 10px;
+}
 
 /* ANIMACIONES */
 
@@ -337,19 +366,29 @@ div.animacion2 {
 
 /* MEDIA */
 
+@media (min-width:990px) {
+    nav.navegadorFull {
+        height: 4.4rem;
+    }
+
+  
+}
+
 /* Tablet */
 @media (min-width: 700px) and (max-width: 1100px) {
     
+    html {
+        font-size: 50%;
+    }
+
     main.nosotrosPadre section { 
         height: auto;
         font-size: medium;
     }
 
-    main section.parrafoIndex p {
-        font-size: medium;
-    }
-}
+   
 
+ }
 
 
 
@@ -357,15 +396,27 @@ div.animacion2 {
 
 @media  (max-width: 699px) {
 
+    html {
+        font-size: 50%;
+    }
+
     .zoom:hover {
         transform: scale(1); 
         
-        
     }
 
+ 
 
-    /* Main */
+    /* index */
 
+    header div.imagenHeader {
+        height: 20rem;
+        width: 100%;
+    }
+
+    main section.parrafoIndex {
+        display: none;
+    }
 
 
     /* Nosotros */
@@ -423,5 +474,15 @@ div.animacion2 {
     main section.parrafoIndex p {
         font-size: medium;
     }
+
+    /* Locales */
+
+    main div.locales {
+        width: 100%;
+      
+        
+    }
 }
+
+
 
