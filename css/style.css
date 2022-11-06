@@ -13,6 +13,11 @@ nav.navegadorFull {
     opacity: 90%;
  }
 
+ nav div img.logo { 
+    margin-right: 0.5rem;
+    margin-top: 1rem ;
+ }
+
 
 header div.imagenHeader {
     height: 35rem;
@@ -386,6 +391,14 @@ div.animacion2 {
         font-size: medium;
     }
 
+    header div.nosotrosSmall {
+        margin-top: 8rem;
+    }
+
+    nav div img.logo { 
+        margin-right: 0;
+        margin-top: 0 ;
+     }
    
 
  }
@@ -405,6 +418,11 @@ div.animacion2 {
         
     }
 
+    nav div img.logo { 
+        margin-right: 0;
+        margin-top: 0 ;
+     }
+
  
 
     /* index */
@@ -412,16 +430,25 @@ div.animacion2 {
     header div.imagenHeader {
         height: 20rem;
         width: 100%;
+        display: none;
+    
     }
 
     main section.parrafoIndex {
         display: none;
     }
 
+    header div.imagenHeader img {
+        top: -50;
+
+    }
+
 
     /* Nosotros */
 
-
+    header div.nosotrosSmall {
+        margin-top: 8rem;
+    }
 
     main.nosotrosPadre {
         grid-template-areas: 
