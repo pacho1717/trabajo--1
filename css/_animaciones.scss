@@ -1,0 +1,61 @@
+@keyframes animacion1 {
+    0% {
+      transform: translate(0px, 0px);
+    }
+  
+    3% {
+      transform: translate(0px, -2px);
+    }
+  
+    12% {
+      transform: translate(0px, 0px);
+    }
+  
+    15% {
+      transform: translate(0px, -2px);
+    }
+  
+    18% {
+      transform: translate(0px, 0px);
+    }
+  
+    30% {
+      transform: translate(0px, -2px);
+    }
+  
+    32% {
+      transform: translate(0px, 0px);
+    }
+  
+    35% {
+      transform: translate(0px, -2px);
+    }
+  
+    37% {
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  nav a img.animacion1 {
+    animation-name: animacion1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+  }
+  
+  @keyframes animacion2 {
+    0% {
+      margin-right: 300%;
+      visibility: hidden;
+    }
+  
+    40% {
+      visibility: hidden;
+    }
+  }
+  
+  div.animacion2 {
+    animation-name: animacion2;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+  }

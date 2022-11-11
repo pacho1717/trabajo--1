@@ -1,0 +1,32 @@
+nav {
+    &.navegadorFull {
+      font-size: 1.6rem;
+      opacity: 90%;
+    }
+  
+    div img.logo {
+      margin-right: 0.5rem;
+      margin-top: 1rem;
+    }
+  }
+  
+  header div.imagenHeader {
+    height: 35rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+  
+    img {
+      width: 100%;
+      height: max-content;
+      position: absolute;
+      top: -30%;
+    }
+  }
+
+  @media (min-width: 990px) {
+    nav.navegadorFull {
+      height: 4.4rem;
+    }
+  }

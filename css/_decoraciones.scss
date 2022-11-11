@@ -1,0 +1,11 @@
+.zoom {
+    transition: transform .5s;
+  
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  
+  .bordesRedondeados {
+    border-radius: 10px;
+  }

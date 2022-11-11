@@ -1,0 +1,118 @@
+@media (min-width: 990px) {
+    nav.navegadorFull {
+      height: 4.4rem;
+    }
+  }
+  
+  /* Tablet */
+  @media (min-width: 700px) and (max-width: 1100px) {
+    html {
+      font-size: 50%;
+    }
+  
+    main.nosotrosPadre section {
+      height: auto;
+      font-size: medium;
+    }
+  
+    header div.nosotrosSmall {
+      margin-top: 8rem;
+    }
+  
+    nav div img.logo {
+      margin-right: 0;
+      margin-top: 0;
+    }
+  }
+  
+  /* TELEFONO */
+  
+  @media (max-width: 699px) {
+    html {
+      font-size: 50%;
+    }
+  
+    .zoom:hover {
+      transform: scale(1);
+    }
+  
+    nav div img.logo {
+      margin-right: 0;
+      margin-top: 0;
+    }
+  
+    /* index */
+  
+    header div.imagenHeader {
+      height: 20rem;
+      width: 100%;
+      display: none;
+    }
+  
+    main section.parrafoIndex {
+      display: none;
+    }
+  
+    header div {
+      &.imagenHeader img {
+        top: -50;
+      }
+  
+      &.nosotrosSmall {
+        margin-top: 8rem;
+      }
+    }
+  
+    /* Nosotros */
+  
+    main {
+      &.nosotrosPadre {
+        grid-template-areas: "seccionNosotros1" "imgNosotros1" "seccionNosotros2" "imgNosotros2" "seccionNosotros3" "imgNosotros3";
+  
+        section {
+          height: auto;
+          font-size: medium;
+  
+          &.seccionNosotros1 {
+            text-align: justify;
+          }
+  
+          &.seccionNosotros2 {
+            text-align: justify;
+            margin-bottom: 0px;
+  
+            h2 {
+              text-align: right;
+              margin-bottom: 0px;
+            }
+          }
+  
+          &.seccionNosotros3 {
+            text-align: justify;
+          }
+        }
+  
+        div {
+          width: auto;
+          text-align: center;
+          margin: 0px;
+  
+          &.imgNosotros2 {
+            background-color: white;
+          }
+  
+          display: none;
+        }
+      }
+  
+      section.parrafoIndex p {
+        font-size: medium;
+      }
+  
+      div.locales {
+        width: 100%;
+      }
+    }
+  
+    
+  }

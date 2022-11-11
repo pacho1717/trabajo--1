@@ -1,515 +1,420 @@
-body {
-    background-image: url(../img/tactile_noise.png);
-}
-
-/* MAIN INDEX */
-
-html {
-    font-size: 62.5%;
-}
-
 nav.navegadorFull {
-    font-size: 1.6rem;
-    opacity: 90%;
- }
-
- nav div img.logo { 
-    margin-right: 0.5rem;
-    margin-top: 1rem ;
- }
-
+  font-size: 1.6rem;
+  opacity: 90%;
+}
+nav div img.logo {
+  margin-right: 0.5rem;
+  margin-top: 1rem;
+}
 
 header div.imagenHeader {
-    height: 35rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    overflow: hidden;
-    position: relative;
-   
+  height: 35rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  position: relative;
 }
-
 header div.imagenHeader img {
-    width: 100%;
-    height: max-content;
-    position: absolute;
-    top: -30%;
-    
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  top: -30%;
 }
 
-
-
-main section.index2 div.imgIndex2 {
-    overflow: hidden;
-    filter: grayscale(30%);
-    padding: 1;
-
+@media (min-width: 990px) {
+  nav.navegadorFull {
+    height: 4.4rem;
+  }
+}
+section h1 {
+  font-size: 3.5rem;
+  color: white;
+  font-family: "Kanit", sans-serif;
 }
 
+section h2 {
+  font-size: 3.5rem;
+  font-family: "Kanit", sans-serif;
+}
 
-
+h1.centrarH1 {
+  text-align: center;
+  margin-top: 5rem;
+}
 
 main section.index2 {
-    padding: 0px;
-    overflow: hidden;
+  padding: 0px;
+  overflow: hidden;
 }
-
+main section.index2 div.imgIndex2 {
+  overflow: hidden;
+  filter: grayscale(30%);
+  padding: 1;
+}
 
 section h5.textoImagen {
-    color: rgb(225, 225, 225);
-    text-transform: uppercase;
-    font-family: 'Kanit', sans-serif;
-    font-weight: bolder;
-    overflow: hidden;
-    font-size: 2.5rem;
+  color: rgb(225, 225, 225);
+  text-transform: uppercase;
+  font-family: "Kanit", sans-serif;
+  font-weight: bolder;
+  overflow: hidden;
+  font-size: 2.5rem;
 }
 
-
+main {
+  margin-bottom: 5rem;
+}
 main section.index2 div.grayScale:hover {
-filter: grayscale(0%);
-
+  filter: grayscale(0%);
 }
-
-
-main section.parrafoIndex{
-    height: fit-content;
-    background: radial-gradient(rgb(77, 77, 77), black)
+main section.parrafoIndex {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: radial-gradient(rgb(77, 77, 77), black);
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.8rem;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
 }
-
-
-main section.parrafoIndex  {
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.8rem;
-    margin: 2rem;
-    padding: 2rem;
-    text-align: center;
-    
-    
-}
-
-main section.parrafoIndex h2 {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
-main { 
-    margin-bottom: 10rem;
-}
-
-
-
-
-
-/* FOOTER */
-
-.bordesFooter {
-    border-top: 3px white double;
-    padding: 0.8rem;
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    text-align: center; 
-    font-size: 1.3rem; 
-}
-
-footer div.redes {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-footer div.redes div.wp {
-    width:7rem;
-    margin: 0px 5px 0px 5px;
-}
-
-footer div.redes div.fb {
-    width: 7.5rem;
-    margin: 0px 5px 0px 5px;
-}
-
-footer div.redes div.ig {
-    width: 7.5rem;
-    margin: 0px 5px 0px 5px;
-}
-
-/* MAIN LOCAL */
-
 
 main div.mapa {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
-
-main div iframe.mapa{
-   width: 40rem;
-   height: 30rem;
+main div iframe.mapa {
+  width: 40rem;
+  height: 30rem;
 }
-
-
-
 main div.locales {
-    width: 70%;
-    margin-top: 4rem;
-    
-    
+  width: 70%;
+  margin-top: 1rem;
 }
-  
-
-/* MAIN CERVEZAS */
 
 main div.tiposDeCerveza {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8rem;
 }
-
-
 main div.tiposDeCerveza img {
-    width: 30rem;
+  width: 30rem;
 }
 
-
-
-/* FORMULARIO */
-
-
-
-main form.formulario{
-    margin-top: 10rem;
-    width: 45rem;
-    border: 2px double white;
-    padding: 2rem;
-    border-radius: 4px;
-    background: radial-gradient(rgb(77, 77, 77), black);
-    font-family: 'Kanit', sans-serif ;
-    color: white;
-    text-transform: uppercase;
+main.nosotrosPadre {
+  display: grid;
+  grid-template-areas: "imgNosotros1 seccionNosotros1 seccionNosotros1" "seccionNosotros2 seccionNosotros2 imgNosotros2" "imgNosotros3 seccionNosotros3 seccionNosotros3";
 }
-
-
-
-main form.formulario legend.contacto1 {
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5rem
-}
-
-
-
-
-
-/* MAIN NOSOTROS */
-
-
 main.nosotrosPadre div {
-    height: 30rem;
-    width: 30rem;
-    margin: 1rem 0rem 1rem 0rem;
+  height: 30rem;
+  width: 30rem;
+  margin: 1rem 0rem 1rem 0rem;
 }
-
-main.nosotrosPadre div img{
-    height: 100%;
-    width: fit-content;
+main.nosotrosPadre div img {
+  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
-
-
-
 main.nosotrosPadre section {
-    height: auto;
-    width: auto;
-    font-family:'Kanit', sans-serif ;
-    color: white;
-    margin: 1rem 0px 1rem 0px;
-    height: auto;
-    font-size: 1.5rem;
-
+  height: auto;
+  width: auto;
+  font-family: "Kanit", sans-serif;
+  color: white;
+  margin: 1rem 0px 1rem 0px;
+  height: auto;
+  font-size: 1.5rem;
 }
-
-
-
 main.nosotrosPadre div.imgNosotros1 {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-
 main.nosotrosPadre div.imgNosotros2 {
-    background-color: white;
-    height: 30rem;
+  background-color: white;
+  height: 30rem;
 }
-
-main.nosotrosPadre section h2 {
-    font-weight: bolder;
-    padding: 1rem;
-}
-
 main.nosotrosPadre section.seccionNosotros1 {
-    text-align: right;
+  text-align: right;
 }
-
-
 main.nosotrosPadre section.seccionNosotros2 {
-    background-color: white;
-    color: black;
-    text-align: left;
+  background-color: white;
+  color: black;
+  text-align: left;
 }
-
 main.nosotrosPadre section.seccionNosotros3 {
-    text-align: right;
+  text-align: right;
 }
 
 /* grid nosotros*/
-
-main.nosotrosPadre {
-    display: grid;
-    grid-template-areas: 
-    "imgNosotros1 seccionNosotros1 seccionNosotros1"
-    "seccionNosotros2 seccionNosotros2 imgNosotros2"
-    "imgNosotros3 seccionNosotros3 seccionNosotros3";
-    
-}
-
 .imgNosotros1 {
-    grid-area: imgNosotros1;
+  grid-area: imgNosotros1;
 }
 
 .imgNosotros2 {
-    grid-area: imgNosotros2;
+  grid-area: imgNosotros2;
 }
 
 .imgNosotros3 {
-    grid-area: imgNosotros3;
+  grid-area: imgNosotros3;
 }
 
 .seccionNosotros1 {
-    grid-area: seccionNosotros1;
+  grid-area: seccionNosotros1;
 }
 
 .seccionNosotros2 {
-    grid-area: seccionNosotros2;
+  grid-area: seccionNosotros2;
 }
 
 .seccionNosotros3 {
-    grid-area: seccionNosotros3;
+  grid-area: seccionNosotros3;
 }
 
+main form.formulario {
+  margin-top: 10rem;
+  width: 45rem;
+  border: 2px double white;
+  padding: 2rem;
+  border-radius: 4px;
+  background: radial-gradient(rgb(77, 77, 77), black);
+  font-family: "Kanit", sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+main form.formulario legend.contacto1 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
 
-/* DETALLES */
+.bordesFooter {
+  border-top: 3px white double;
+  padding: 0.8rem;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+footer div.redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+footer div.redes div.wp {
+  width: 7rem;
+  margin: 0px 5px 0px 5px;
+}
+footer div.redes div.fb, footer div.redes div.ig {
+  width: 7.5rem;
+  margin: 0px 5px 0px 5px;
+}
 
 .zoom {
-    transition: transform .5s; 
+  transition: transform 0.5s;
 }
- 
 .zoom:hover {
-    transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 .bordesRedondeados {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-/* ANIMACIONES */
-
-@keyframes animacion1{
-    0% {
-        transform: translate(0px, 0px);
-         }
-    3% {
-       transform: translate(0px, -2px);
-    }
-    12% {
-        transform: translate(0px, 0px);
-         }
-    15% {
-       transform: translate(0px, -2px);
-    }
-    18% {
-        transform: translate(0px, 0px);
-     }
-     30% {
-        transform: translate(0px, -2px);
-     }
-     32% {
-         transform: translate(0px, 0px);
-          }
-     35% {
-        transform: translate(0px, -2px);
-     }
-     37% {
-         transform: translate(0px, 0px);
-      }
+@-webkit-keyframes animacion1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  3% {
+    transform: translate(0px, -2px);
+  }
+  12% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -2px);
+  }
+  18% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    transform: translate(0px, -2px);
+  }
+  32% {
+    transform: translate(0px, 0px);
+  }
+  35% {
+    transform: translate(0px, -2px);
+  }
+  37% {
+    transform: translate(0px, 0px);
+  }
 }
 
+@keyframes animacion1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  3% {
+    transform: translate(0px, -2px);
+  }
+  12% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -2px);
+  }
+  18% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    transform: translate(0px, -2px);
+  }
+  32% {
+    transform: translate(0px, 0px);
+  }
+  35% {
+    transform: translate(0px, -2px);
+  }
+  37% {
+    transform: translate(0px, 0px);
+  }
+}
 nav a img.animacion1 {
-    animation-name: animacion1;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-delay: 1.2s;
+  -webkit-animation-name: animacion1;
+          animation-name: animacion1;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
-
-@keyframes animacion2{
-    0% {
-        margin-right: 300%;
-        visibility: hidden;
-    }
-    40%{
-        visibility: hidden;
-
-     }
+@-webkit-keyframes animacion2 {
+  0% {
+    margin-right: 300%;
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
 }
 
-div.animacion2 { 
-    animation-name: animacion2;
-
-    animation-iteration-count: 1;
-
-    animation-duration: 1s;
-   
+@keyframes animacion2 {
+  0% {
+    margin-right: 300%;
+    visibility: hidden;
+  }
+  40% {
+    visibility: hidden;
+  }
+}
+div.animacion2 {
+  -webkit-animation-name: animacion2;
+          animation-name: animacion2;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
-/* MEDIA */
-
-@media (min-width:990px) {
-    nav.navegadorFull {
-        height: 4.4rem;
-    }
-
-  
+@media (min-width: 990px) {
+  nav.navegadorFull {
+    height: 4.4rem;
+  }
 }
-
 /* Tablet */
 @media (min-width: 700px) and (max-width: 1100px) {
-    
-    html {
-        font-size: 50%;
-    }
-
-    main.nosotrosPadre section { 
-        height: auto;
-        font-size: medium;
-    }
-
-    header div.nosotrosSmall {
-        margin-top: 8rem;
-    }
-
-    nav div img.logo { 
-        margin-right: 0;
-        margin-top: 0 ;
-     }
-   
-
- }
-
-
-
+  html {
+    font-size: 50%;
+  }
+  main.nosotrosPadre section {
+    height: auto;
+    font-size: medium;
+  }
+  header div.nosotrosSmall {
+    margin-top: 8rem;
+  }
+  nav div img.logo {
+    margin-right: 0;
+    margin-top: 0;
+  }
+}
 /* TELEFONO */
-
-@media  (max-width: 699px) {
-
-    html {
-        font-size: 50%;
-    }
-
-    .zoom:hover {
-        transform: scale(1); 
-        
-    }
-
-    nav div img.logo { 
-        margin-right: 0;
-        margin-top: 0 ;
-     }
-
- 
-
-    /* index */
-
-    header div.imagenHeader {
-        height: 20rem;
-        width: 100%;
-        display: none;
-    
-    }
-
-    main section.parrafoIndex {
-        display: none;
-    }
-
-    header div.imagenHeader img {
-        top: -50;
-
-    }
-
-
-    /* Nosotros */
-
-    header div.nosotrosSmall {
-        margin-top: 8rem;
-    }
-
-    main.nosotrosPadre {
-        grid-template-areas: 
-        "seccionNosotros1"
-        "imgNosotros1"
-        "seccionNosotros2"
-        "imgNosotros2"
-        "seccionNosotros3"
-        "imgNosotros3";
-        
-    }
-
-    main.nosotrosPadre section { 
-        height: auto;
-        font-size: medium;
-    }
-
-    main.nosotrosPadre section.seccionNosotros1 {
-        text-align: justify;
-    }
-
-    main.nosotrosPadre section.seccionNosotros2 {
-        text-align: justify;
-        margin-bottom: 0px;
-    }
-
-    main.nosotrosPadre section.seccionNosotros2 h2 {
-        text-align: right;
-        margin-bottom: 0px;
-    }
-
-    main.nosotrosPadre section.seccionNosotros3 {
-        text-align: justify;
-    }
-
-    main.nosotrosPadre div{
-        width: auto;
-        text-align: center;
-        margin: 0px;
-    }
-
-    main.nosotrosPadre div.imgNosotros2 {
-        background-color: white;
-    }
-
-    main.nosotrosPadre div{
-        display: none;
-    }
-
-    main section.parrafoIndex p {
-        font-size: medium;
-    }
-
-    /* Locales */
-
-    main div.locales {
-        width: 100%;
-      
-        
-    }
+@media (max-width: 699px) {
+  html {
+    font-size: 50%;
+  }
+  .zoom:hover {
+    transform: scale(1);
+  }
+  nav div img.logo {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  /* index */
+  header div.imagenHeader {
+    height: 20rem;
+    width: 100%;
+    display: none;
+  }
+  main section.parrafoIndex {
+    display: none;
+  }
+  header div.imagenHeader img {
+    top: -50;
+  }
+  header div.nosotrosSmall {
+    margin-top: 8rem;
+  }
+  /* Nosotros */
+  main.nosotrosPadre {
+    grid-template-areas: "seccionNosotros1" "imgNosotros1" "seccionNosotros2" "imgNosotros2" "seccionNosotros3" "imgNosotros3";
+  }
+  main.nosotrosPadre section {
+    height: auto;
+    font-size: medium;
+  }
+  main.nosotrosPadre section.seccionNosotros1 {
+    text-align: justify;
+  }
+  main.nosotrosPadre section.seccionNosotros2 {
+    text-align: justify;
+    margin-bottom: 0px;
+  }
+  main.nosotrosPadre section.seccionNosotros2 h2 {
+    text-align: right;
+    margin-bottom: 0px;
+  }
+  main.nosotrosPadre section.seccionNosotros3 {
+    text-align: justify;
+  }
+  main.nosotrosPadre div {
+    width: auto;
+    text-align: center;
+    margin: 0px;
+    display: none;
+  }
+  main.nosotrosPadre div.imgNosotros2 {
+    background-color: white;
+  }
+  main section.parrafoIndex p {
+    font-size: medium;
+  }
+  main div.locales {
+    width: 100%;
+  }
+}
+body {
+  background-image: url(../img/tactile_noise.png);
 }
 
-
-
+html {
+  font-size: 62.5%;
+}/*# sourceMappingURL=style.css.map */

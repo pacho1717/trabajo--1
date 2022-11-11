@@ -1,0 +1,198 @@
+    
+
+   section h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-family:'Kanit', sans-serif;
+
+  }
+
+  section h2 {
+    font-size: 3.5rem;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  h1.centrarH1 {
+    text-align: center;
+    margin-top: 5rem;
+  }
+// INDEX //
+
+main section.index2 {
+  div.imgIndex2 {
+    overflow: hidden;
+    filter: grayscale(30%);
+    padding: 1;
+  }
+
+  padding: 0px;
+  overflow: hidden;
+}
+
+section h5.textoImagen {
+  color: rgb(225, 225, 225);
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+  overflow: hidden;
+  font-size: 2.5rem;
+}
+
+main {
+  section {
+    &.index2 div.grayScale:hover {
+      filter: grayscale(0%);
+    }
+
+    &.parrafoIndex {
+      height: fit-content;
+      background: radial-gradient(rgb(77, 77, 77), black);
+      color: white;
+      font-family: 'Kanit', sans-serif;
+      font-size: 1.8rem;
+      margin: 2rem;
+      padding: 2rem;
+      text-align: center;
+
+      
+    }
+  }
+
+  margin-bottom: 5rem;
+}
+
+  // LOCALES //
+
+  main div {
+    &.mapa {
+      display: flex;
+      justify-content: center;
+      margin-top: 5rem;
+    }
+  
+    iframe.mapa {
+      width: 40rem;
+      height: 30rem;
+    }
+  
+    &.locales {
+      width: 70%;
+      margin-top: 1rem;
+    }
+  }
+
+  // CERVEAS // 
+
+  main div.tiposDeCerveza {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8rem;
+  
+    img {
+      width: 30rem;
+    }
+  }
+
+  // NOSOTROS // 
+
+  main.nosotrosPadre {
+    div {
+      height: 30rem;
+      width: 30rem;
+      margin: 1rem 0rem 1rem 0rem;
+  
+      img {
+        height: 100%;
+        width: fit-content;
+      }
+    }
+  
+    section {
+      height: auto;
+      width: auto;
+      font-family: "Kanit", sans-serif;
+      color: white;
+      margin: 1rem 0px 1rem 0px;
+      height: auto;
+      font-size: 1.5rem;
+    }
+  
+    div {
+      &.imgNosotros1 {
+        margin-top: 2rem;
+      }
+  
+      &.imgNosotros2 {
+        background-color: white;
+        height: 30rem;
+      }
+    }
+  
+    section {
+  
+      &.seccionNosotros1 {
+        text-align: right;
+      }
+  
+      &.seccionNosotros2 {
+        background-color: white;
+        color: black;
+        text-align: left;
+      }
+  
+      &.seccionNosotros3 {
+        text-align: right;
+      }
+    }
+  
+    display: grid;
+    grid-template-areas: "imgNosotros1 seccionNosotros1 seccionNosotros1" "seccionNosotros2 seccionNosotros2 imgNosotros2" "imgNosotros3 seccionNosotros3 seccionNosotros3";
+  }
+  
+  /* grid nosotros*/
+  
+  .imgNosotros1 {
+    grid-area: imgNosotros1;
+  }
+  
+  .imgNosotros2 {
+    grid-area: imgNosotros2;
+  }
+  
+  .imgNosotros3 {
+    grid-area: imgNosotros3;
+  }
+  
+  .seccionNosotros1 {
+    grid-area: seccionNosotros1;
+  }
+  
+  .seccionNosotros2 {
+    grid-area: seccionNosotros2;
+  }
+  
+  .seccionNosotros3 {
+    grid-area: seccionNosotros3;
+  }
+
+  // CONTACTO // 
+
+  main form.formulario {
+    margin-top: 10rem;
+    width: 45rem;
+    border: 2px double white;
+    padding: 2rem;
+    border-radius: 4px;
+    background: radial-gradient(rgb(77, 77, 77), black);
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-transform: uppercase;
+  
+    legend.contacto1 {
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+  }

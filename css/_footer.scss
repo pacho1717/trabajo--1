@@ -1,0 +1,29 @@
+.bordesFooter {
+  border-top: 3px white double;
+  padding: 0.8rem;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+footer div.redes {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+  div {
+    &.wp {
+      width: 7rem;
+      margin: 0px 5px 0px 5px;
+    }
+
+    &.fb, &.ig {
+      width: 7.5rem;
+      margin: 0px 5px 0px 5px;
+    }
+  }
+
+  }
+
+
