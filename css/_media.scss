@@ -23,6 +23,18 @@
       margin-right: 0;
       margin-top: 0;
     }
+
+    h1.centrarH1 {
+      margin-top: 10rem;
+    }
+
+    main div.locales {
+     width: 90%;
+     height: auto;
+
+    }
+    
+
   }
   
   /* TELEFONO */
@@ -40,12 +52,15 @@
       margin-right: 0;
       margin-top: 0;
     }
+
+    h1.centrarH1 {
+      margin-top: 10rem;
+    }
+
   
     /* index */
   
     header div.imagenHeader {
-      height: 20rem;
-      width: 100%;
       display: none;
     }
   
@@ -108,10 +123,18 @@
       section.parrafoIndex p {
         font-size: medium;
       }
-  
+      //LOCALES//
       div.locales {
-        width: 100%;
+        width: 90%;
+        height: auto;
+
+        img {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+        }
       }
+      
     }
   
     

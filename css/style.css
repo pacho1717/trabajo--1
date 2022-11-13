@@ -1,3 +1,11 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+html body {
+  background-image: url(../img/tactile_noise.png);
+}
+
 nav.navegadorFull {
   font-size: 1.6rem;
   opacity: 90%;
@@ -36,12 +44,13 @@ section h1 {
 
 section h2 {
   font-size: 3.5rem;
+  color: white;
   font-family: "Kanit", sans-serif;
 }
 
 h1.centrarH1 {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4.2rem;
 }
 
 main section.index2 {
@@ -54,8 +63,8 @@ main section.index2 div.imgIndex2 {
   padding: 1;
 }
 
-section h5.textoImagen {
-  color: rgb(225, 225, 225);
+section h3.textoImagen {
+  color: white;
   text-transform: uppercase;
   font-family: "Kanit", sans-serif;
   font-weight: bolder;
@@ -70,13 +79,13 @@ main section.index2 div.grayScale:hover {
   filter: grayscale(0%);
 }
 main section.parrafoIndex {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.6rem;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   background: radial-gradient(rgb(77, 77, 77), black);
-  color: white;
-  font-family: "Kanit", sans-serif;
-  font-size: 1.8rem;
   margin: 2rem;
   padding: 2rem;
   text-align: center;
@@ -92,8 +101,13 @@ main div iframe.mapa {
   height: 30rem;
 }
 main div.locales {
-  width: 70%;
-  margin-top: 1rem;
+  height: calc(100vh - 12rem);
+  width: 80%;
+}
+main div.locales img {
+  height: calc(100vh - 12rem);
+  width: auto;
+  overflow: hidden;
 }
 
 main div.tiposDeCerveza {
@@ -122,13 +136,13 @@ main.nosotrosPadre div img {
   width: fit-content;
 }
 main.nosotrosPadre section {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.6rem;
   height: auto;
   width: auto;
-  font-family: "Kanit", sans-serif;
-  color: white;
   margin: 1rem 0px 1rem 0px;
   height: auto;
-  font-size: 1.5rem;
 }
 main.nosotrosPadre div.imgNosotros1 {
   margin-top: 2rem;
@@ -207,11 +221,11 @@ footer div.redes {
   margin-top: 1rem;
 }
 footer div.redes div.wp {
-  width: 7rem;
+  width: 6.5rem;
   margin: 0px 5px 0px 5px;
 }
 footer div.redes div.fb, footer div.redes div.ig {
-  width: 7.5rem;
+  width: 7rem;
   margin: 0px 5px 0px 5px;
 }
 
@@ -345,6 +359,13 @@ div.animacion2 {
     margin-right: 0;
     margin-top: 0;
   }
+  h1.centrarH1 {
+    margin-top: 10rem;
+  }
+  main div.locales {
+    width: 90%;
+    height: auto;
+  }
 }
 /* TELEFONO */
 @media (max-width: 699px) {
@@ -358,10 +379,11 @@ div.animacion2 {
     margin-right: 0;
     margin-top: 0;
   }
+  h1.centrarH1 {
+    margin-top: 10rem;
+  }
   /* index */
   header div.imagenHeader {
-    height: 20rem;
-    width: 100%;
     display: none;
   }
   main section.parrafoIndex {
@@ -408,13 +430,12 @@ div.animacion2 {
     font-size: medium;
   }
   main div.locales {
-    width: 100%;
+    width: 90%;
+    height: auto;
   }
-}
-body {
-  background-image: url(../img/tactile_noise.png);
-}
-
-html {
-  font-size: 62.5%;
+  main div.locales img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */

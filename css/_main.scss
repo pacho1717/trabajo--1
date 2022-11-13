@@ -1,20 +1,29 @@
     
+@mixin encabezados {
+  font-size: 3.5rem;
+  color: $colorPrincipal;
+  font-family: 'Kanit', sans-serif;
+}
+
+@mixin parrafos {
+    color: $colorPrincipal;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.6rem;
+  
+}
 
    section h1 {
-    font-size: 3.5rem;
-    color: white;
-    font-family:'Kanit', sans-serif;
+    @include encabezados;
 
   }
 
   section h2 {
-    font-size: 3.5rem;
-    font-family: 'Kanit', sans-serif;
+    @include encabezados;
   }
   
   h1.centrarH1 {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 4.2rem;
   }
 // INDEX //
 
@@ -29,8 +38,8 @@ main section.index2 {
   overflow: hidden;
 }
 
-section h5.textoImagen {
-  color: rgb(225, 225, 225);
+section h3.textoImagen {
+  color: $colorPrincipal;
   text-transform: uppercase;
   font-family: 'Kanit', sans-serif;
   font-weight: bolder;
@@ -45,11 +54,10 @@ main {
     }
 
     &.parrafoIndex {
+      @include parrafos;
       height: fit-content;
-      background: radial-gradient(rgb(77, 77, 77), black);
-      color: white;
-      font-family: 'Kanit', sans-serif;
-      font-size: 1.8rem;
+      background: $fondoCuadros;
+      
       margin: 2rem;
       padding: 2rem;
       text-align: center;
@@ -76,9 +84,19 @@ main {
     }
   
     &.locales {
-      width: 70%;
-      margin-top: 1rem;
+      height: calc(100vh - 12rem);
+      width: 80%;
+      
+     
+      
+      img {
+        height: calc(100vh - 12rem);
+        width: auto;
+        overflow: hidden;
+      }
     }
+   
+  
   }
 
   // CERVEAS // 
@@ -109,13 +127,11 @@ main {
     }
   
     section {
+      @include parrafos;
       height: auto;
       width: auto;
-      font-family: "Kanit", sans-serif;
-      color: white;
       margin: 1rem 0px 1rem 0px;
       height: auto;
-      font-size: 1.5rem;
     }
   
     div {
@@ -137,7 +153,7 @@ main {
   
       &.seccionNosotros2 {
         background-color: white;
-        color: black;
+        color: $colorSecundario;
         text-align: left;
       }
   
@@ -181,16 +197,16 @@ main {
   main form.formulario {
     margin-top: 10rem;
     width: 45rem;
-    border: 2px double white;
+    border: 2px double $colorPrincipal;
     padding: 2rem;
     border-radius: 4px;
-    background: radial-gradient(rgb(77, 77, 77), black);
+    background: $fondoCuadros;
     font-family: "Kanit", sans-serif;
-    color: white;
+    color: $colorPrincipal;
     text-transform: uppercase;
   
     legend.contacto1 {
-      color: white;
+      color: $colorPrincipal;
       text-align: center;
       font-weight: bold;
       font-size: 2.5rem;
