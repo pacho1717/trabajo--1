@@ -8,7 +8,7 @@
 @mixin parrafos {
     color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2rem;
   
 }
 
@@ -99,7 +99,7 @@ main {
   
   }
 
-  // CERVEAS // 
+  // CERVEZAS // 
 
   main div.tiposDeCerveza {
     display: flex;
@@ -155,6 +155,10 @@ main {
         background-color: white;
         color: $colorSecundario;
         text-align: left;
+      }
+
+      &.seccionNosotros2 h2 {
+        color: $colorSecundario ;
       }
   
       &.seccionNosotros3 {
